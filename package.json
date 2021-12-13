@@ -1,0 +1,27 @@
+{
+  "name": "prova-aluno-viniciusalexandre",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate": "knex migrate:latest --knexfile db/knexfile.js",
+    "seed": "knex seed:run --knexfile db/knexfile.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Skaaiiz/prova-aluno-viniciusAlexandre.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Skaaiiz/prova-aluno-viniciusAlexandre/issues"
+  },
+  "homepage": "https://github.com/Skaaiiz/prova-aluno-viniciusAlexandre#readme",
+  "dependencies": {
+    "knex": "^0.95.14",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {},
+  "description": ""
+}
